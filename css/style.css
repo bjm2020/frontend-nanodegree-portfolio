@@ -12,7 +12,7 @@ hr {
   border: none;
     height: 10px;
     color: #333;
-    background-color: #333; 
+    background-color: #333;
 }
 
 body{
@@ -22,4 +22,44 @@ body{
   font-family: 'Petit Formal Script', cursive;
   font-size: 100px;
   color: #333;
+}
+
+.fa-cog {
+  color: #4060A5;
+}
+
+.tw-cog {
+  color: #00ABE3;
+}
+
+.gh-cog {
+  color: black;
+}
+
+.mail-cog {
+  color: red;
+}
+
+
+
+@media screen and (max-width:900px) {
+  #social-side {
+    display:none;
+  }
+}
+
+#social-side ul {
+   list-style: none;
+   margin: 1em;
+   padding: 1em;
+}
+#social-side container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   background: white;
+}
+#social-side {
+   left: 0;
+   position: fixed;
+   top: 150px;
 }
