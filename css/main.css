@@ -1,6 +1,5 @@
 * {
   border:1px solid red !important;
-  font-family: 'Lato:100', sans-serif;
 }
 
 * {
@@ -10,11 +9,11 @@
   box-sizing: border-box;
 }
 
-/*@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
   p {
     display: none;
   }
-}*/
+}
 
 .grid {
     margin: 0 auto;
@@ -22,9 +21,6 @@
     width: 100%;
 }
 
-.right {
-  text-align: right;
-}
 .row {
   width:100%;
   display:flex;
