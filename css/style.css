@@ -24,6 +24,11 @@ body{
   color: #333;
 }
 
+.footer {
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .fa-cog {
   color: #4060A5;
 }
@@ -40,11 +45,11 @@ body{
   color: red;
 }
 
-
-
-@media screen and (max-width:900px) {
-  #social-side {
-    display:none;
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
   }
 }
 
@@ -62,4 +67,31 @@ body{
    left: 0;
    position: fixed;
    top: 150px;
+}
+
+#mailform,
+#project1,
+#project2,
+#project3,
+#project4 {
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.emailform input,textarea,button {
+  width:100%;
+  padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #F2F1ED;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
 }
