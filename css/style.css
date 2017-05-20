@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    font-family: 'Petit Formal Script', cursive;
+    font-family: "Petit Formal Script", cursive;
     font-size: 100px;
     color: #333;
 }
@@ -73,7 +73,7 @@ button {
 
 .modal-content {
     background-color: #F2F1ED;
-    margin: 15% auto;  
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
